@@ -56,6 +56,6 @@ jobs:
     steps:
       - name: govulncheck
         uses: golang/govulncheck-action@v1
-        with: 
-           go-version: '~1.21.0' 
+        with:
+           go-version-input: '~1.21.0'
            check-latest: true
